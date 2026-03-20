@@ -24,7 +24,7 @@ import { loadLocations } from './data.js';
  * Consider loading it from an environment variable or a config file
  * that is listed in .gitignore.
  */
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiYnIwYzBubjByIiwiYSI6ImNsZGdwZTF2aDAxYm8zb210em11NGF5eGIifQ.ziYpFIsV1MqW_Rwfds5ohA';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiYnIwYzBubjByIiwiYSI6ImNtbXppYmNseDA5ODIycm90Zm45czU5aDMifQ.xndYM3YPSHlmOpaHSrLyPw';
 
 /** Map style – swap for any Mapbox style URL */
 const MAP_STYLE = 'mapbox://styles/mapbox/light-v11';
