@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ariat Map</title>
+
+  <!-- Mapbox GL JS – CSS must be loaded before the library -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet" />
+
+  <!-- Application styles -->
+  <link href="./styles/main.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Full-viewport map container -->
+  <div id="map"></div>
+
+  <!--
+    Filter panel – rendered in the DOM but positioned programmatically
+    by map.js so it sits inside the Mapbox control area.
+    Initially hidden; map.js reveals it after populating the checkboxes.
+  -->
+  <div id="filter-panel" style="display:none;">
+    <h3>Filter by Type</h3>
+    <!-- Checkboxes are injected by map.js -->
+  </div>
+
+  <!-- Mapbox GL JS library (global build – exposes window.mapboxgl) -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+
+  <!--
+    Application entry point.
+    type="module" enables ES6 import/export in map.js and data.js.
+    Must be placed AFTER the Mapbox script so window.mapboxgl is available.
+  -->
+  <script type="module" src="./js/map.js"></script>
+</body>
+</html>
