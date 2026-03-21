@@ -228,8 +228,14 @@ async function initMap() {
     let geojson;
     try {
       geojson = await loadLocations();
+      console.info(`[map] Loaded ${geojson.features?.length ?? 0} location feature(s).`);
     } catch (err) {
       console.error('Could not load location data:', err);
+      return;
+    }
+
+    if (!Array.isArray(geojson.features)) {
+      console.error('[map] Location payload is not a valid GeoJSON FeatureCollection.', geojson);
       return;
     }
 
@@ -280,6 +286,7 @@ async function initMap() {
     // Filter panel
     // ------------------------------------------------------------------
     addFilterPanel(map);
+    applyFilters(map);
   });
 }
 

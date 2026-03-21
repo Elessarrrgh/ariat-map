@@ -29,6 +29,20 @@
   <!-- Mapbox GL JS library (global build – exposes window.mapboxgl) -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 
+  <script>
+    // Frontend-only Airtable config hook. Replace with real values for now,
+    // but note that anything placed here is public in a GitHub Pages deploy.
+    window.AIRTABLE_CONFIG = {
+      personalAccessToken: 'pat0YpvCapozPGBtU.2c3c23d1b6a0c48fdd19d08a853d9ab87ee8aea7d66be81cb4599d161483ea98',
+      baseId: 'appbgiyIHuB9P9IdG',
+      tableName: 'Location Data',
+      view: 'List',
+      pageSize: 100,
+      maxRecords: 0,
+      timeoutMs: 15000,
+    };
+  </script>
+
   <!--
     Application entry point.
     type="module" enables ES6 import/export in map.js and data.js.
