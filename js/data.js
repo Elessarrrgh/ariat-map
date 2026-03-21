@@ -23,6 +23,8 @@ const AIRTABLE_FIELDS = ['Name', 'Type', 'Latitude', 'Longitude', 'City', 'State
 const TYPE_ALIASES = {
   ariat: 'Ariat',
   ncaa: 'NCAA',
+  school: 'NCAA',
+  schools: 'NCAA',
   academy: 'Academy',
   scheels: 'SCHEELS',
 };
