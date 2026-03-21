@@ -36,7 +36,7 @@
       "geometry": { "type": "Point", "coordinates": [-86.7816, 36.1627] },
       "properties": {
         "name": "Vanderbilt University",
-        "type": "NCAA",
+        "type": "School",
         "city": "Nashville",
         "state": "TN"
       }
@@ -46,7 +46,7 @@
       "geometry": { "type": "Point", "coordinates": [-106.6504, 35.0844] },
       "properties": {
         "name": "University of New Mexico",
-        "type": "NCAA",
+        "type": "School",
         "city": "Albuquerque",
         "state": "NM"
       }
@@ -56,7 +56,7 @@
       "geometry": { "type": "Point", "coordinates": [-97.3308, 32.7555] },
       "properties": {
         "name": "TCU",
-        "type": "NCAA",
+        "type": "School",
         "city": "Fort Worth",
         "state": "TX"
       }

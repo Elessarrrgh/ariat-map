@@ -1,6 +1,6 @@
 # Ariat Map
 
-A clean, production-ready web-based interactive map application built with [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/). It visualises location data (Ariat stores, competitor retailers, and NCAA schools) using GeoJSON, with a filter panel for toggling visibility by location type.
+A clean, production-ready web-based interactive map application built with [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/). It visualises location data (Ariat stores, competitor retailers, and schools) using GeoJSON, with a filter panel for toggling visibility by location type.
 
 ---
 
@@ -91,7 +91,7 @@ Supported `type` values (controls dot colour):
 | type    | colour |
 |---------|--------|
 | Ariat   | blue   |
-| NCAA    | red    |
+| School  | red    |
 | Academy | green  |
 | SCHEELS | purple |
 | *(other)* | gray |

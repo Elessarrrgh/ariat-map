@@ -71,7 +71,7 @@ body {
 }
 
 .filter-swatch.ariat   { background-color: #3b82f6; }
-.filter-swatch.ncaa    { background-color: #ef4444; }
+.filter-swatch.school  { background-color: #ef4444; }
 .filter-swatch.academy { background-color: #22c55e; }
 .filter-swatch.scheels { background-color: #a855f7; }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .popup-type.ariat   { color: #3b82f6; }
-.popup-type.ncaa    { color: #ef4444; }
+.popup-type.school  { color: #ef4444; }
 .popup-type.academy { color: #22c55e; }
 .popup-type.scheels { color: #a855f7; }
 .popup-type.other   { color: #6b7280; }

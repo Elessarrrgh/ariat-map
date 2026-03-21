@@ -48,7 +48,7 @@ const LAYER_ID = 'locations-circles';
  */
 const TYPE_COLORS = {
   Ariat:   '#3b82f6', // blue
-  NCAA:    '#ef4444', // red
+  School:  '#ef4444', // red
   Academy: '#22c55e', // green
   SCHEELS: '#a855f7', // purple
 };
@@ -80,7 +80,7 @@ function buildColorExpression() {
  * @returns {string}
  */
 function typeClass(type) {
-  const known = ['ariat', 'ncaa', 'academy', 'scheels'];
+  const known = ['ariat', 'school', 'academy', 'scheels'];
   const key = (type ?? '').toLowerCase();
   return known.includes(key) ? key : 'other';
 }
